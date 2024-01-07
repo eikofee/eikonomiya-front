@@ -21,5 +21,5 @@ export default function BackgroundComponent({character} : {character: ICharacter
             break;
             
     }
-    return <div className={"-z-10 fixed w-screen h-screen top-0 left-0 bg-cover blur-md ".concat(bg)} ></div>
+    return <div className={"-z-10 fixed w-screen h-screen top-0 left-0 bg-cover scale-105 blur-md ".concat(bg)}></div>
 }
